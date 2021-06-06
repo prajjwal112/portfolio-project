@@ -73,6 +73,14 @@ nav ul li{
   color: var(--primary-orange);
   text-transform: uppercase;
 }
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
 
 /*********************************************** TYPED TEXT ****************************************************************************************/
 .typed-text{
@@ -102,4 +110,10 @@ nav ul li{
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+@media(max-width: 768px){
+  .particles-canvas{
+    display: none;
+  }
 }
